@@ -1,6 +1,13 @@
-console.log('Qual o seu nome?');
-console.log('Quantos anos você tem?');
-console.log('Qual linguagem de programação você está estudando?')
+//console.log('Qual o seu nome?');
+//console.log('Quantos anos você tem?');
+//console.log('Qual linguagem de programação você está estudando?')7
+
+let nome = prompt('Qual o seu nome?');
+let idade = prompt('Quantos anos você tem?');
+let linguagemEstudo = prompt('Qual linguiagem de programação você está estudando?');
+
+alert('Olá' + nome, 'você tem' + idade 'anos e já está aprendendo' + linguagemEstudo!);
+
 
 
 //var numeroSecreto = parseInt(Math.random() * 1001 + 1)
